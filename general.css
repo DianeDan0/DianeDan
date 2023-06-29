@@ -1,0 +1,87 @@
+body{
+    background-color: rgb(183, 242, 183);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    margin: 0px;
+}
+h1{
+    font-size: 100px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+h2{
+    font-size: 40px;
+    margin: 0 auto;
+    width: 80%;
+}
+.head{
+    color: rgb(11, 107, 9);
+    background-color: rgba(43, 161, 47, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.instruct{
+    padding: 50px;
+    z-index: 10;
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.card{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.message{
+    width: 100%;
+    margin-top: -50px;
+}
+.tula{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.card img{
+    width: 100%;
+    border: 1px solid black;
+    background: linear-gradient(80deg, rgba(255,255,255,1) 0%, rgba(0,167,255,1) 100%);
+}
+.code{
+    color: rgb(11, 107, 9);
+}
+.head2{
+    background-color: rgb(137, 218, 140);
+    display: flex;
+    align-items: center;
+    margin-top: 2px;
+    height: 70px;
+    text-align: center;
+}
+.bottom{
+    width: 100%;
+    height: 300px;
+    position: fixed;
+    bottom: -175px;
+    margin-bottom: 0px;
+    background-repeat: repeat-x;
+    background-size: 300px;
+    background-image: url(assets/tulips.png);
+    z-index: -1;
+}
+.message p{
+    padding: 0px;
+    font-size: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.tula p{
+    padding: 0px;
+    font-size: 20px;
+    text-align: center;
+}
