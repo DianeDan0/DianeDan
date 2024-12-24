@@ -23,14 +23,14 @@
             position: absolute;
             width: 100dvw;
             height: 100dvh;
-            background: linear-gradient(30deg, rgba(240,240,240,1) 0%, rgba(255,255,255,1) 50%, rgba(219,219,219,1) 100%);
             display: flex;
             justify-content: center;
             align-items: center;
-            background-color: #f0f0f0;
+            background-color: #ab2222;
             border: 1px solid #ccc;
             transition: transform 1s ease, z-index 1s ease, box-shadow 1s ease;
             font-family: Arial, sans-serif;
+            color: white;
             padding: 100px;
             text-align: center;
         }
@@ -80,75 +80,140 @@
         .hidden-buttons.right {
             right: 0;
         }
+        .gif {
+            position: fixed; /* Use fixed to cover the entire viewport */
+            top: 0;
+            left: 0;
+            width: 100dvw; /* Use vw for viewport width */
+            height: 100dvh; /* Use vh for viewport height */
+        }
+        .gif img {
+            position: fixed; /* Use fixed to cover the entire viewport */
+            top: 0;
+            left: 0;
+            z-index: 500;
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Ensures proper scaling */
+            border: none; /* Remove borders if necessary */
+        }
     </style>
 </head>
 <body>
     <div class="card active" data-index="1" style="z-index: 12;">
+        <div class="gif">
+            <img src="snow.gif">
+            <img src="lights.png">
+        </div>
         <h3>Click mo lang left or right side of screen para mag move.</h3>
         <p>1/12</p>
         <div class="hidden-buttons right" onclick="nextCard()"></div>
     </div>
     <div class="card behind" data-index="2" style="z-index: 11;">
+        <div class="gif">
+            <img src="snow.gif">
+            <img src="lights.png">
+        </div>
         <div class="hidden-buttons left" onclick="prevCard()"></div>
         <h3>Tell him it's the Carol Singers.<br>Charot<br>This is kinda based sa movie na "Love Actually".</h3>
         <p>2/12</p>
         <div class="hidden-buttons right" onclick="nextCard()"></div>
     </div>
     <div class="card behind" data-index="3" style="z-index: 10;">
+        <div class="gif">
+            <img src="snow.gif">
+            <img src="lights.png">
+        </div>
         <div class="hidden-buttons left" onclick="prevCard()"></div>
         <h3>Honestly, I wanna do it exactly like the movie sana. Kaso I don’t have the money to buy big cards so I can write ung message. So I kinda did it nalang in a way I know of. </h3>
         <p>3/12</p>
         <div class="hidden-buttons right" onclick="nextCard()"></div>
     </div>
     <div class="card behind" data-index="4" style="z-index: 9;">
+        <div class="gif">
+            <img src="snow.gif">
+            <img src="lights.png">
+        </div>
         <div class="hidden-buttons left" onclick="prevCard()"></div>
         <h3>Why am I doing this and why do I want you to read it? Well, like the movie. On Christmas, you tell the truth. And also, like the movie. I’m doing this without hope and agenda. I just wanna say a few things.</h3>
         <p>4/12</p>
         <div class="hidden-buttons right" onclick="nextCard()"></div>
     </div>
     <div class="card behind" data-index="5" style="z-index: 8;">
+        <div class="gif">
+            <img src="snow.gif">
+            <img src="lights.png">
+        </div>
         <div class="hidden-buttons left" onclick="prevCard()"></div>
         <h3>Throughout the time we’ve been together. I’ve lived life more than I have been living before. I’ve experienced emotions I didn’t know were real. I learned more about life, I’ve matured more, and well, even though it is over now, I’m still learning a lot more. All of that is because of you.</h3>
         <p>5/12</p>
         <div class="hidden-buttons right" onclick="nextCard()"></div>
     </div>
     <div class="card behind" data-index="6" style="z-index: 7;">
+        <div class="gif">
+            <img src="snow.gif">
+            <img src="lights.png">
+        </div>
         <div class="hidden-buttons left" onclick="prevCard()"></div>
         <h3>I made a mistake of letting you go, but I won’t take you back anymore. I just want you to know how much I appreciate you.</h3>
         <p>6/12</p>
         <div class="hidden-buttons right" onclick="nextCard()"></div>
     </div>
     <div class="card behind" data-index="7" style="z-index: 6;">
+        <div class="gif">
+            <img src="snow.gif">
+            <img src="lights.png">
+        </div>
         <div class="hidden-buttons left" onclick="prevCard()"></div>
         <h3>The memories of how proud you are of me whenever I hated everything about myself.<br>The memories of how much you loved me even though I am actively hurting myself.<br>The memories on how you trusted me when I don’t even believe in myself.</h3>
         <p>7/12</p>
         <div class="hidden-buttons right" onclick="nextCard()"></div>
     </div>
     <div class="card behind" data-index="8" style="z-index: 5;">
+        <div class="gif">
+            <img src="snow.gif">
+            <img src="lights.png">
+        </div>
         <div class="hidden-buttons left" onclick="prevCard()"></div>
         <h3>You are, to me, the tangi that I let go, the angel that flew away, the cookies and cream that I let melt. But I guess, it is enough.</h3>
         <p>8/12</p>
         <div class="hidden-buttons right" onclick="nextCard()"></div>
     </div>
     <div class="card behind" data-index="9" style="z-index: 4;">
+        <div class="gif">
+            <img src="snow.gif">
+            <img src="lights.png">
+        </div>
         <div class="hidden-buttons left" onclick="prevCard()"></div>
         <h3>I love doing these sorts of things for you. This might not be an actual Christmas gift, but I hope you still appreciate this. I’m ready now to fully let go of you. I just wanna say, thank you.</h3>
         <p>9/12</p>
         <div class="hidden-buttons right" onclick="nextCard()"></div>
     </div>
     <div class="card behind" data-index="10" style="z-index: 3;">
+        <div class="gif">
+            <img src="snow.gif">
+            <img src="lights.png">
+        </div>
         <div class="hidden-buttons left" onclick="prevCard()"></div>
         <h3>I love you Yan, I love you more, I love you first<br>See you when I see you,<br>Merry Christmas, and Happy New Year.</h3>
         <p>10/12</p>
         <div class="hidden-buttons right" onclick="nextCard()"></div>
     </div>
     <div class="card behind" data-index="11" style="z-index: 2;">
+        <div class="gif">
+            <img src="snow.gif">
+            <img src="lights.png">
+        </div>
         <div class="hidden-buttons left" onclick="prevCard()"></div>
         <h1>Soon to be,<br>Engineer Diane.</h1>
         <p>11/12</p>
         <div class="hidden-buttons right" onclick="nextCard()"></div>
     </div>
     <div class="card behind" data-index="12" style="z-index: 1;">
+        <div class="gif">
+            <img src="snow.gif">
+            <img src="lights.png">
+        </div>
         <div class="hidden-buttons left" onclick="prevCard()"></div>
         <h3>If you've finally finished this all. No need to tell me anything, atleast just tell me if the card effect is cool. Thanks.</h3>
         <p>12/12</p>
